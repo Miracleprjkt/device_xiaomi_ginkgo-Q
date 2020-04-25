@@ -22,6 +22,7 @@ pm.dexopt.bg-dexopt=everything
 # Enable EGL image tracking on SF for b/137514000
 debug.sf.enable_egl_image_tracker=1
 
+
 # Fling
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
