@@ -8,3 +8,8 @@ allow system_app vibrator_dev:dir search;
 allow system_app vibrator_dev:file rw_file_perms;
 
 get_prop(system_app, vendor_default_prop)
+
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read };
+allow system_app sysfs_battery_supply:file { open };
+allow system_app sysfs_battery_supply:file { getattr };
