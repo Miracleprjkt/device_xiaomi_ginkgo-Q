@@ -139,6 +139,9 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 ODM_MANIFEST_WILLOW_FILES := $(DEVICE_PATH)/manifest_willow.xml
 ODM_MANIFEST_SKUS += willow
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ginkgo
 TARGET_RECOVERY_DEVICE_MODULES := libinit_ginkgo
