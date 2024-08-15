@@ -1,0 +1,43 @@
+# ART
+ro.sys.fw.dex2oat_thread_count=8
+dalvik.vm.dex2oat-filter=quicken
+dalvik.vm.image-dex2oat-filter=quicken
+dalvik.vm.dex2oat-minidebuginfo=false
+dalvik.vm.minidebuginfo=false
+
+# Display
+debug.cpurend.vsync=false
+persist.hwc.enable_vds=1
+persist.demo.hdmirotationlock=false
+vendor.display.disable_rotator_downscale=1
+vendor.display.disable_scaler=0
+
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
+# Fling
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+ro.vendor.qti.cgroup_follow.enable=true
+persist.vendor.qti.inputopts.enable=true
+persist.vendor.qti.inputopts.movetouchslop=0.6
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
+# LMKD
+ro.lmk.low_ram=false
+
+# App launch prefetching (IORapd)
+ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
+# Perf
+vendor.perf.gestureflingboost.enable=true
+
+# Zygote preforking
+zygote.critical_window.minute=10
